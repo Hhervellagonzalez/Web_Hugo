@@ -1,0 +1,13 @@
+@media(min-width:768px){
+    .carousel{
+        margin: 0px 0px;
+    }
+
+    .carrusel{
+        width: 275px;
+    }
+    .carrusel a img{
+        width: 250px;
+    }
+}
+
