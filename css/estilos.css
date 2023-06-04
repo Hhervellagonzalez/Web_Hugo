@@ -113,7 +113,6 @@ body {
 }
 .carrito img{
     width: 20px;
-
 }
 
 section {
@@ -297,4 +296,52 @@ footer {
     height: 100%;
     color: rgb(122, 122, 122);
     margin-top: 2px;
+}
+
+.der img:hover{
+    float: right;
+    width: 50px;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+.carrito img:hover{
+    width: 25px;
+}
+
+.marco{
+    height: 400px;
+    width: 100%;
+    border: 0px solid red;
+    margin-bottom: 20px;
+}
+
+.MARCAS{
+    display: flex;
+    border: 0px solid red;
+}
+
+.marca{
+    display: flex;
+    float: left;
+    background-color: white;
+    height: 200px;
+    width: 205px;
+    border: 0px solid red;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.marca:hover{
+    border: 1px solid black;
+}
+
+.marca a{
+    display: flex;
+    float: left;
+    background-color: white;
+    height: 200px;
+    width: 205px;
+    margin-bottom: 5%;
+    margin-left: 3%;
 }

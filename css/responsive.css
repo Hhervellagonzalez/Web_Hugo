@@ -9,5 +9,16 @@
     .carrusel a img{
         width: 250px;
     }
+
+
 }
 
+@media (max-width:1200px) {
+    .carrito{
+        border: 0px red solid;
+        float: right;
+        height: 100%;
+        width: auto;
+        margin-left:45%;
+        }    
+}
