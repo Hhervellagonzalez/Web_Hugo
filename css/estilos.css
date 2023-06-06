@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+@import url(../TIPOGRAFIA/Simplicity.ttf);
 
 *{
     border: 0px red solid;
@@ -22,6 +23,7 @@ body {
 .barra img{
     width: 75px;
     margin-left: 1.8%;
+    
 }
 
 .der img{
@@ -144,10 +146,10 @@ section {
 }
   
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    
     
   }
 
@@ -173,7 +175,8 @@ footer {
     width: 150px;
     margin-left:45% ;
     margin-top: 1%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
+    
   }
 
   .carrusel{
@@ -237,7 +240,7 @@ footer {
     color: black;
     padding: 10px;
     margin-top: 0px;
-
+    font-family: "Arial";
     
 }
 .carousel h4 small{
@@ -256,12 +259,13 @@ footer {
 
 .carrusel-arrow{
     border-radius: 30px;
-    background-color: black;
+    height: 48px;
+    background-color: grey;
     position: absolute;
     z-index: 4;
     width: 48px;
     text-align: center;
-    border: 0;
+    border-bottom: 1px black solid;
     cursor: pointer;
 }
 
@@ -274,7 +278,7 @@ footer {
     width: 12px;
     height: 100%;
     color: rgba(255, 255, 255, 1);
-    margin-top: 2px;
+
 }
 
 .carrusel-prev{
@@ -294,7 +298,7 @@ footer {
 .carrusel-arrow svg:hover{
     width: 12px;
     height: 100%;
-    color: rgb(122, 122, 122);
+    color: rgb(14, 14, 14);
     margin-top: 2px;
 }
 
@@ -310,26 +314,27 @@ footer {
 }
 
 .marco{
-    height: 400px;
+    display: flex;
+    height: 100%;
     width: 100%;
-    border: 0px solid red;
-    margin-bottom: 20px;
+    border: 1px solid red;
+    padding: 0%;
+    margin: 0px;
 }
 
-.MARCAS{
+.Marcas{
     display: flex;
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 .marca{
-    display: flex;
-    float: left;
-    background-color: white;
+
+    background-color: #f9f9fa;
     height: 200px;
-    width: 205px;
+    width: 80%;
     border: 0px solid red;
     margin-bottom: 5%;
-    margin-left: 3%;
+    margin-right: 1%;
 }
 
 .marca:hover{
@@ -344,4 +349,101 @@ footer {
     width: 205px;
     margin-bottom: 5%;
     margin-left: 3%;
+}
+.carrusel-arrow:hover{
+    border-radius: 30px;
+    height: 48px;
+    background-color: grey;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 0px;
+    cursor: pointer;
+}
+
+.zona{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Enlinea{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9fa;
+}
+.Marcasynom{
+    height: 30%;
+    width: 20%;
+    display: block;
+}
+.fotomarca{
+    height: 80%;
+    width: 100%;
+    
+    
+}
+.textomarca{
+    height: 20%;
+    width: 100%;
+    border: 0px black solid;
+    display: flex;
+    justify-content: center;
+}
+.fotomarca a {
+    text-decoration: none;
+    border: 0px black solid;
+    justify-content: center;
+    color:#0083bd;
+}
+.fotomarca a img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fotomarca a img:hover{
+    text-decoration: none;
+    border:#0083bd 3px solid;
+    justify-content: center;
+    
+}
+.textomarca:hover{
+    text-decoration: none;
+    border-bottom:#0083bd 3px solid;
+    justify-content: center;
+    color: black;
+}
+.info{
+    border-top: 1px solid grey;
+    background-color:  #f9f9fa;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dentroinfo{
+    display: block;
+    border: 0px solid red;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pago img{
+    width: 200px;
+    
+} 
+.derechos{
+    display: flex;
+    width: 100%;
 }
