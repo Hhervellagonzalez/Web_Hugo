@@ -10,7 +10,9 @@
         width: 250px;
     }
 
+    
 }
+
 
 @media (max-width:1200px) {
     .carrito{
@@ -19,9 +21,9 @@
         height: 100%;
         width: auto;
         margin-left:45%;
-    }    
-
+    }
 }
+
 @media (max-width:1300px){
     .linea{
         display: none;
@@ -29,5 +31,7 @@
     .Nombre{
         margin-bottom: 4%;
     }
+    
+  
 }
 

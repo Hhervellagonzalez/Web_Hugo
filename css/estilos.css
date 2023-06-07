@@ -448,3 +448,36 @@ footer {
     width: 100%;
 }
 
+
+.lugar{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    text-align: center  ;
+}
+.marcolugar{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.interior{
+    display: block;
+    width: 100%;
+}
+.textolugar{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    text-align: center ;
+}
+.interior img{
+    width: 50%;
+}
+
+h4{
+    font-size: 25px;
+}
+.interior img:hover{
+    width: 51%;
+    border: black 1px solid;
+}
