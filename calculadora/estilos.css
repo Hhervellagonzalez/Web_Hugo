@@ -114,3 +114,6 @@ body {
     grid-gap: 20px;
     padding: 20px;
   }
+  .derechos p a{
+    color: white;
+  }

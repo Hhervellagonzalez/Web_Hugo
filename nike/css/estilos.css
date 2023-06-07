@@ -555,3 +555,7 @@ h4{
     width: 51%;
     border: black 1px solid;
 }
+
+.derechos p a{
+    color: white;
+  }
